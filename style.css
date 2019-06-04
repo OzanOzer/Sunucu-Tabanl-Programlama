@@ -1,0 +1,49 @@
+#header{background-color: #74A608;
+width: %100;
+height: 100px;
+text-align: center;}
+#isim {color:white;}
+
+/*MENÜ BAŞLANGIÇ*/
+.menu {width: 250px; 
+    margin-top:5px;}
+.menu ul{list-style:none;}
+.menu ul li a{background:#2d4d5c;
+color:#fff;
+font: 14px verdana, arial;
+display: block;
+padding: 20px 0px;
+text-decoration: none;
+text-align: center;}
+
+#genel {border-left: solid 3px #FF4F40;}
+#genel:hover {background: #FF4F40;}
+
+#swiss {border-left: solid 3px rgb(231, 214, 18);}
+#swiss:hover {background: rgb(231, 214, 18);}
+
+#anemon {border-left:solid 3px  rgb(17, 212, 60);}
+#anemon:hover {background: rgb(17, 212, 60);}
+
+#hilton {border-left:solid 3px rgb(70, 159, 243);}
+#hilton:hover {background: rgb(70, 159, 243);}
+
+#izmir {border-left:solid 3px rgb(145, 16, 26);}
+#izmir:hover {background: rgb(145, 16, 26);}
+
+#kardesler {border-left:solid 3px rgb(8, 212, 212);}
+#kardesler:hover {background: rgb(8, 212, 212);}
+
+#genel, #gruplar, #haftalar, #izlenmeOranlari, #ilkHafta, #ikinciHafta{transition-duration:0.4s;}
+/*MENÜ BİTİŞ*/
+
+#grafik {
+    width:500px;
+    height:300px;
+    margin-left: 300px;
+    margin-top: -300px;
+}
+#myChart {
+    width:300px;
+    height:300px;
+}
